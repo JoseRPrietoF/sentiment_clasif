@@ -1,0 +1,203 @@
+2019-04-11 16:11:34,255 - model_tfidf_tf - INFO - texts_rep_train: (1008, 1213)
+2019-04-11 16:12:13,636 - model_tfidf_tf - INFO - texts_rep_train: (1008, 1213)
+2019-04-11 16:12:13,637 - model_tfidf_tf - INFO - y_train: 1008
+2019-04-11 16:12:52,405 - model_tfidf_tf - INFO - texts_rep_train: (1008, 1213)
+2019-04-11 16:12:52,405 - model_tfidf_tf - INFO - y_train: 1008
+2019-04-11 16:12:52,648 - model_tfidf_tf - INFO - Tensor("dense_5/BiasAdd:0", shape=(?, 4), dtype=float32)
+2019-04-11 16:12:52,652 - model_tfidf_tf - INFO - 796260 params to train
+2019-04-11 16:15:08,286 - model_tfidf_tf - INFO - texts_rep_train: (1008, 1213)
+2019-04-11 16:15:08,286 - model_tfidf_tf - INFO - y_train: 1008
+2019-04-11 16:15:08,490 - model_tfidf_tf - INFO - Tensor("dense_5/BiasAdd:0", shape=(?, 4), dtype=float32)
+2019-04-11 16:15:08,491 - model_tfidf_tf - INFO - 796260 params to train
+2019-04-11 16:20:43,099 - model_tfidf_tf - INFO - texts_rep_train: (1008, 1213)
+2019-04-11 16:20:43,100 - model_tfidf_tf - INFO - y_train: (1008, 4)
+2019-04-11 16:20:43,304 - model_tfidf_tf - INFO - Tensor("dense_5/BiasAdd:0", shape=(?, 4), dtype=float32)
+2019-04-11 16:20:43,305 - model_tfidf_tf - INFO - 796260 params to train
+2019-04-11 16:20:45,452 - model_tfidf_tf - INFO - Loss on epoch 0 : 84.34548902511597 - LR: 0.002
+2019-04-11 16:20:45,620 - model_tfidf_tf - INFO - Loss on epoch 1 : 78.96232414245605 - LR: 0.002
+2019-04-11 16:20:45,769 - model_tfidf_tf - INFO - Loss on epoch 2 : 70.1614465713501 - LR: 0.002
+2019-04-11 16:20:45,907 - model_tfidf_tf - INFO - Loss on epoch 3 : 54.52952265739441 - LR: 0.002
+2019-04-11 16:20:46,041 - model_tfidf_tf - INFO - Loss on epoch 4 : 37.2562872171402 - LR: 0.002
+2019-04-11 16:20:46,179 - model_tfidf_tf - INFO - Loss on epoch 5 : 27.24237322807312 - LR: 0.001
+2019-04-11 16:20:46,322 - model_tfidf_tf - INFO - Loss on epoch 6 : 23.08163595199585 - LR: 0.001
+2019-04-11 16:20:46,464 - model_tfidf_tf - INFO - Loss on epoch 7 : 17.00963205099106 - LR: 0.001
+2019-04-11 16:20:46,605 - model_tfidf_tf - INFO - Loss on epoch 8 : 13.329732596874237 - LR: 0.001
+2019-04-11 16:20:46,741 - model_tfidf_tf - INFO - Loss on epoch 9 : 9.734918266534805 - LR: 0.001
+2019-04-11 16:20:46,874 - model_tfidf_tf - INFO - Loss on epoch 10 : 7.733171105384827 - LR: 0.001
+2019-04-11 16:20:47,005 - model_tfidf_tf - INFO - Loss on epoch 11 : 6.3944650292396545 - LR: 0.001
+2019-04-11 16:20:47,140 - model_tfidf_tf - INFO - Loss on epoch 12 : 4.350673280656338 - LR: 0.001
+2019-04-11 16:20:47,275 - model_tfidf_tf - INFO - Loss on epoch 13 : 3.5753525719046593 - LR: 0.001
+2019-04-11 16:20:47,423 - model_tfidf_tf - INFO - Loss on epoch 14 : 2.368152316659689 - LR: 0.001
+2019-04-11 16:20:47,561 - model_tfidf_tf - INFO - Loss on epoch 15 : 2.0209837444126606 - LR: 0.0001
+2019-04-11 16:20:47,697 - model_tfidf_tf - INFO - Loss on epoch 16 : 1.1331207137554884 - LR: 0.0001
+2019-04-11 16:20:47,832 - model_tfidf_tf - INFO - Loss on epoch 17 : 1.3152685263194144 - LR: 0.0001
+2019-04-11 16:20:47,965 - model_tfidf_tf - INFO - Loss on epoch 18 : 1.1051012370735407 - LR: 0.0001
+2019-04-11 16:20:48,095 - model_tfidf_tf - INFO - Loss on epoch 19 : 1.8108655018731952 - LR: 0.0001
+2019-04-11 16:20:48,228 - model_tfidf_tf - INFO - Loss on epoch 20 : 1.2205340974032879 - LR: 0.0001
+2019-04-11 16:20:48,361 - model_tfidf_tf - INFO - Loss on epoch 21 : 1.2705210112035275 - LR: 0.0001
+2019-04-11 16:20:48,495 - model_tfidf_tf - INFO - Loss on epoch 22 : 1.2666619503870606 - LR: 0.0001
+2019-04-11 16:20:48,625 - model_tfidf_tf - INFO - Loss on epoch 23 : 1.8426061533391476 - LR: 0.0001
+2019-04-11 16:20:48,769 - model_tfidf_tf - INFO - Loss on epoch 24 : 1.0285946484655142 - LR: 0.0001
+2019-04-11 16:20:48,925 - model_tfidf_tf - INFO - Loss on epoch 25 : 1.0129256136715412 - LR: 1e-05
+2019-04-11 16:20:49,060 - model_tfidf_tf - INFO - Loss on epoch 26 : 1.2464076336473227 - LR: 1e-05
+2019-04-11 16:20:49,191 - model_tfidf_tf - INFO - Loss on epoch 27 : 1.0898266285657883 - LR: 1e-05
+2019-04-11 16:20:49,324 - model_tfidf_tf - INFO - Loss on epoch 28 : 1.135969139635563 - LR: 1e-05
+2019-04-11 16:20:49,459 - model_tfidf_tf - INFO - Loss on epoch 29 : 0.8818582156673074 - LR: 1e-05
+2019-04-11 16:20:49,593 - model_tfidf_tf - INFO - Loss on epoch 30 : 1.147902699187398 - LR: 1e-06
+2019-04-11 16:20:49,726 - model_tfidf_tf - INFO - Loss on epoch 31 : 1.2870106138288975 - LR: 1e-06
+2019-04-11 16:20:49,879 - model_tfidf_tf - INFO - Loss on epoch 32 : 1.0086280214600265 - LR: 1e-06
+2019-04-11 16:20:50,011 - model_tfidf_tf - INFO - Loss on epoch 33 : 1.141860207542777 - LR: 1e-06
+2019-04-11 16:20:50,145 - model_tfidf_tf - INFO - Loss on epoch 34 : 0.8491744352504611 - LR: 1e-06
+2019-04-11 16:20:50,278 - model_tfidf_tf - INFO - Loss on epoch 35 : 0.8458496835082769 - LR: 1e-06
+2019-04-11 16:20:50,418 - model_tfidf_tf - INFO - Loss on epoch 36 : 1.1837392561137676 - LR: 1e-06
+2019-04-11 16:20:50,548 - model_tfidf_tf - INFO - Loss on epoch 37 : 1.4422483630478382 - LR: 1e-06
+2019-04-11 16:20:50,682 - model_tfidf_tf - INFO - Loss on epoch 38 : 1.0528839603066444 - LR: 1e-06
+2019-04-11 16:20:50,813 - model_tfidf_tf - INFO - Loss on epoch 39 : 0.9333185954019427 - LR: 1e-06
+2019-04-11 16:20:50,953 - model_tfidf_tf - INFO - Loss on epoch 40 : 0.911470121704042 - LR: 1e-06
+2019-04-11 16:20:51,088 - model_tfidf_tf - INFO - Loss on epoch 41 : 1.2461141794919968 - LR: 1e-06
+2019-04-11 16:20:51,224 - model_tfidf_tf - INFO - Loss on epoch 42 : 1.439015836454928 - LR: 1e-06
+2019-04-11 16:20:51,358 - model_tfidf_tf - INFO - Loss on epoch 43 : 1.3804400693625212 - LR: 1e-06
+2019-04-11 16:20:51,496 - model_tfidf_tf - INFO - Loss on epoch 44 : 0.7889105752110481 - LR: 1e-06
+2019-04-11 16:20:51,628 - model_tfidf_tf - INFO - Loss on epoch 45 : 0.9192598145455122 - LR: 1e-06
+2019-04-11 16:20:51,771 - model_tfidf_tf - INFO - Loss on epoch 46 : 1.2580509558320045 - LR: 1e-06
+2019-04-11 16:20:51,904 - model_tfidf_tf - INFO - Loss on epoch 47 : 1.1654172409325838 - LR: 1e-06
+2019-04-11 16:20:52,044 - model_tfidf_tf - INFO - Loss on epoch 48 : 0.724964302033186 - LR: 1e-06
+2019-04-11 16:20:52,177 - model_tfidf_tf - INFO - Loss on epoch 49 : 1.5256144907325506 - LR: 1e-06
+2019-04-11 16:20:52,317 - model_tfidf_tf - INFO - Loss on epoch 50 : 0.9639979284256697 - LR: 1e-06
+2019-04-11 16:20:52,317 - model_tfidf_tf - INFO - 
+-- TEST --
+
+2019-04-11 16:22:16,488 - model_tfidf_tf - INFO - texts_rep_train: (1008, 1213)
+2019-04-11 16:22:16,488 - model_tfidf_tf - INFO - y_train: (1008, 4)
+2019-04-11 16:22:16,685 - model_tfidf_tf - INFO - Tensor("dense_5/BiasAdd:0", shape=(?, 4), dtype=float32)
+2019-04-11 16:22:16,686 - model_tfidf_tf - INFO - 796260 params to train
+2019-04-11 16:22:17,301 - model_tfidf_tf - INFO - Loss on epoch 0 : 83.92178583145142 - LR: 0.002
+2019-04-11 16:22:17,427 - model_tfidf_tf - INFO - Loss on epoch 1 : 78.16621732711792 - LR: 0.002
+2019-04-11 16:22:17,555 - model_tfidf_tf - INFO - Loss on epoch 2 : 69.44719314575195 - LR: 0.002
+2019-04-11 16:22:17,680 - model_tfidf_tf - INFO - Loss on epoch 3 : 53.95801854133606 - LR: 0.002
+2019-04-11 16:22:17,807 - model_tfidf_tf - INFO - Loss on epoch 4 : 37.599183678627014 - LR: 0.002
+2019-04-11 16:22:17,933 - model_tfidf_tf - INFO - Loss on epoch 5 : 28.897005319595337 - LR: 0.001
+2019-04-11 16:22:17,933 - model_tfidf_tf - INFO - 
+-- TEST --
+
+2019-04-11 16:23:37,950 - model_tfidf_tf - INFO - texts_rep_train: (1008, 1213)
+2019-04-11 16:23:37,950 - model_tfidf_tf - INFO - y_train: (1008, 4)
+2019-04-11 16:23:38,147 - model_tfidf_tf - INFO - Tensor("dense_5/BiasAdd:0", shape=(?, 4), dtype=float32)
+2019-04-11 16:23:38,148 - model_tfidf_tf - INFO - 796260 params to train
+2019-04-11 16:23:38,802 - model_tfidf_tf - INFO - Loss on epoch 0 : 84.95803928375244 - LR: 0.002
+2019-04-11 16:23:38,932 - model_tfidf_tf - INFO - Loss on epoch 1 : 79.43739128112793 - LR: 0.002
+2019-04-11 16:23:39,061 - model_tfidf_tf - INFO - Loss on epoch 2 : 70.81313943862915 - LR: 0.002
+2019-04-11 16:23:39,193 - model_tfidf_tf - INFO - Loss on epoch 3 : 53.30449628829956 - LR: 0.002
+2019-04-11 16:23:39,330 - model_tfidf_tf - INFO - Loss on epoch 4 : 34.47531318664551 - LR: 0.002
+2019-04-11 16:23:39,462 - model_tfidf_tf - INFO - Loss on epoch 5 : 24.323092818260193 - LR: 0.001
+2019-04-11 16:23:39,463 - model_tfidf_tf - INFO - 
+-- TEST --
+
+2019-04-11 16:24:44,994 - model_tfidf_tf - INFO - texts_rep_train: (1008, 1213)
+2019-04-11 16:24:44,994 - model_tfidf_tf - INFO - y_train: (1008, 4)
+2019-04-11 16:24:45,191 - model_tfidf_tf - INFO - Tensor("dense_5/BiasAdd:0", shape=(?, 4), dtype=float32)
+2019-04-11 16:24:45,193 - model_tfidf_tf - INFO - 796260 params to train
+2019-04-11 16:24:45,810 - model_tfidf_tf - INFO - Loss on epoch 0 : 84.49512362480164 - LR: 0.002
+2019-04-11 16:24:45,936 - model_tfidf_tf - INFO - Loss on epoch 1 : 80.08138823509216 - LR: 0.002
+2019-04-11 16:24:46,065 - model_tfidf_tf - INFO - Loss on epoch 2 : 73.24756360054016 - LR: 0.002
+2019-04-11 16:24:46,191 - model_tfidf_tf - INFO - Loss on epoch 3 : 58.12348556518555 - LR: 0.002
+2019-04-11 16:24:46,323 - model_tfidf_tf - INFO - Loss on epoch 4 : 41.218897223472595 - LR: 0.002
+2019-04-11 16:24:46,453 - model_tfidf_tf - INFO - Loss on epoch 5 : 31.416667819023132 - LR: 0.001
+2019-04-11 16:24:46,453 - model_tfidf_tf - INFO - 
+-- TEST --
+
+2019-04-11 16:25:27,139 - model_tfidf_tf - INFO - texts_rep_train: (1008, 1213)
+2019-04-11 16:25:27,139 - model_tfidf_tf - INFO - y_train: (1008, 4)
+2019-04-11 16:25:27,341 - model_tfidf_tf - INFO - Tensor("dense_5/BiasAdd:0", shape=(?, 4), dtype=float32)
+2019-04-11 16:25:27,342 - model_tfidf_tf - INFO - 796260 params to train
+2019-04-11 16:25:28,036 - model_tfidf_tf - INFO - Loss on epoch 0 : 84.27115869522095 - LR: 0.002
+2019-04-11 16:25:28,163 - model_tfidf_tf - INFO - Loss on epoch 1 : 78.26328539848328 - LR: 0.002
+2019-04-11 16:25:28,295 - model_tfidf_tf - INFO - Loss on epoch 2 : 71.23985433578491 - LR: 0.002
+2019-04-11 16:25:28,436 - model_tfidf_tf - INFO - Loss on epoch 3 : 59.1018443107605 - LR: 0.002
+2019-04-11 16:25:28,573 - model_tfidf_tf - INFO - Loss on epoch 4 : 46.95431113243103 - LR: 0.002
+2019-04-11 16:25:28,704 - model_tfidf_tf - INFO - Loss on epoch 5 : 32.73269331455231 - LR: 0.001
+2019-04-11 16:25:28,704 - model_tfidf_tf - INFO - 
+-- TEST --
+
+2019-04-11 16:25:28,844 - model_tfidf_tf - INFO - Evaluando FF
+2019-04-11 16:25:28,844 - model_tfidf_tf - INFO - Confusion matrix: 
+2019-04-11 16:25:28,845 - model_tfidf_tf - INFO - [[136   4  23  56]
+ [ 25   2   8  34]
+ [ 27   2  12  21]
+ [ 35   1  14 106]]
+2019-04-11 16:25:28,845 - model_tfidf_tf - INFO - ACC: 0.5059288537549407
+2019-04-11 16:25:28,845 - model_tfidf_tf - INFO - f1_micro: 0.5059288537549407
+2019-04-11 16:25:28,845 - model_tfidf_tf - INFO - f1_macro: 0.35917798754890695
+2019-04-11 16:25:28,845 - model_tfidf_tf - INFO - -------------
+2019-04-11 16:25:28,845 - model_tfidf_tf - INFO - ----------
+2019-04-11 16:25:28,845 - model_tfidf_tf - INFO - Acc Val Test 0.06324110671936758
+2019-04-11 16:25:58,637 - model_tfidf_tf - INFO - texts_rep_train: (1008, 1213)
+2019-04-11 16:25:58,637 - model_tfidf_tf - INFO - y_train: (1008, 4)
+2019-04-11 16:25:58,835 - model_tfidf_tf - INFO - Tensor("dense_5/BiasAdd:0", shape=(?, 4), dtype=float32)
+2019-04-11 16:25:58,836 - model_tfidf_tf - INFO - 796260 params to train
+2019-04-11 16:25:59,456 - model_tfidf_tf - INFO - Loss on epoch 0 : 83.65251731872559 - LR: 0.002
+2019-04-11 16:25:59,588 - model_tfidf_tf - INFO - Loss on epoch 1 : 77.97591018676758 - LR: 0.002
+2019-04-11 16:25:59,718 - model_tfidf_tf - INFO - Loss on epoch 2 : 71.7676432132721 - LR: 0.002
+2019-04-11 16:25:59,842 - model_tfidf_tf - INFO - Loss on epoch 3 : 60.166956186294556 - LR: 0.002
+2019-04-11 16:25:59,972 - model_tfidf_tf - INFO - Loss on epoch 4 : 46.698397159576416 - LR: 0.002
+2019-04-11 16:26:00,105 - model_tfidf_tf - INFO - Loss on epoch 5 : 31.887832045555115 - LR: 0.001
+2019-04-11 16:26:00,236 - model_tfidf_tf - INFO - Loss on epoch 6 : 26.1451735496521 - LR: 0.001
+2019-04-11 16:26:00,372 - model_tfidf_tf - INFO - Loss on epoch 7 : 19.994017362594604 - LR: 0.001
+2019-04-11 16:26:00,501 - model_tfidf_tf - INFO - Loss on epoch 8 : 17.476874947547913 - LR: 0.001
+2019-04-11 16:26:00,630 - model_tfidf_tf - INFO - Loss on epoch 9 : 15.546028196811676 - LR: 0.001
+2019-04-11 16:26:00,759 - model_tfidf_tf - INFO - Loss on epoch 10 : 15.191488683223724 - LR: 0.001
+2019-04-11 16:26:00,888 - model_tfidf_tf - INFO - Loss on epoch 11 : 13.126420021057129 - LR: 0.001
+2019-04-11 16:26:01,020 - model_tfidf_tf - INFO - Loss on epoch 12 : 13.475821256637573 - LR: 0.001
+2019-04-11 16:26:01,151 - model_tfidf_tf - INFO - Loss on epoch 13 : 14.012980341911316 - LR: 0.001
+2019-04-11 16:26:01,288 - model_tfidf_tf - INFO - Loss on epoch 14 : 13.595132112503052 - LR: 0.001
+2019-04-11 16:26:01,419 - model_tfidf_tf - INFO - Loss on epoch 15 : 10.85275024175644 - LR: 0.0001
+2019-04-11 16:26:01,551 - model_tfidf_tf - INFO - Loss on epoch 16 : 11.247540593147278 - LR: 0.0001
+2019-04-11 16:26:01,683 - model_tfidf_tf - INFO - Loss on epoch 17 : 11.10752546787262 - LR: 0.0001
+2019-04-11 16:26:01,818 - model_tfidf_tf - INFO - Loss on epoch 18 : 10.83536559343338 - LR: 0.0001
+2019-04-11 16:26:01,948 - model_tfidf_tf - INFO - Loss on epoch 19 : 11.032452315092087 - LR: 0.0001
+2019-04-11 16:26:02,081 - model_tfidf_tf - INFO - Loss on epoch 20 : 10.1598601937294 - LR: 0.0001
+2019-04-11 16:26:02,210 - model_tfidf_tf - INFO - Loss on epoch 21 : 10.436067044734955 - LR: 0.0001
+2019-04-11 16:26:02,344 - model_tfidf_tf - INFO - Loss on epoch 22 : 9.681280374526978 - LR: 0.0001
+2019-04-11 16:26:02,474 - model_tfidf_tf - INFO - Loss on epoch 23 : 9.33855390548706 - LR: 0.0001
+2019-04-11 16:26:02,610 - model_tfidf_tf - INFO - Loss on epoch 24 : 9.390097349882126 - LR: 0.0001
+2019-04-11 16:26:02,740 - model_tfidf_tf - INFO - Loss on epoch 25 : 8.83195647597313 - LR: 1e-05
+2019-04-11 16:26:02,873 - model_tfidf_tf - INFO - Loss on epoch 26 : 8.80619466304779 - LR: 1e-05
+2019-04-11 16:26:03,004 - model_tfidf_tf - INFO - Loss on epoch 27 : 9.936491787433624 - LR: 1e-05
+2019-04-11 16:26:03,136 - model_tfidf_tf - INFO - Loss on epoch 28 : 10.082774102687836 - LR: 1e-05
+2019-04-11 16:26:03,264 - model_tfidf_tf - INFO - Loss on epoch 29 : 10.038247853517532 - LR: 1e-05
+2019-04-11 16:26:03,402 - model_tfidf_tf - INFO - Loss on epoch 30 : 9.227306455373764 - LR: 1e-06
+2019-04-11 16:26:03,533 - model_tfidf_tf - INFO - Loss on epoch 31 : 8.730203121900558 - LR: 1e-06
+2019-04-11 16:26:03,668 - model_tfidf_tf - INFO - Loss on epoch 32 : 8.531969547271729 - LR: 1e-06
+2019-04-11 16:26:03,798 - model_tfidf_tf - INFO - Loss on epoch 33 : 9.901194423437119 - LR: 1e-06
+2019-04-11 16:26:03,934 - model_tfidf_tf - INFO - Loss on epoch 34 : 9.371962487697601 - LR: 1e-06
+2019-04-11 16:26:04,071 - model_tfidf_tf - INFO - Loss on epoch 35 : 8.723015516996384 - LR: 1e-06
+2019-04-11 16:26:04,203 - model_tfidf_tf - INFO - Loss on epoch 36 : 8.657179325819016 - LR: 1e-06
+2019-04-11 16:26:04,334 - model_tfidf_tf - INFO - Loss on epoch 37 : 8.744018524885178 - LR: 1e-06
+2019-04-11 16:26:04,468 - model_tfidf_tf - INFO - Loss on epoch 38 : 9.357280254364014 - LR: 1e-06
+2019-04-11 16:26:04,602 - model_tfidf_tf - INFO - Loss on epoch 39 : 9.390272349119186 - LR: 1e-06
+2019-04-11 16:26:04,734 - model_tfidf_tf - INFO - Loss on epoch 40 : 8.874536275863647 - LR: 1e-06
+2019-04-11 16:26:04,864 - model_tfidf_tf - INFO - Loss on epoch 41 : 8.927083671092987 - LR: 1e-06
+2019-04-11 16:26:05,005 - model_tfidf_tf - INFO - Loss on epoch 42 : 9.164052486419678 - LR: 1e-06
+2019-04-11 16:26:05,136 - model_tfidf_tf - INFO - Loss on epoch 43 : 8.91550412774086 - LR: 1e-06
+2019-04-11 16:26:05,273 - model_tfidf_tf - INFO - Loss on epoch 44 : 9.028220295906067 - LR: 1e-06
+2019-04-11 16:26:05,406 - model_tfidf_tf - INFO - Loss on epoch 45 : 9.04728701710701 - LR: 1e-06
+2019-04-11 16:26:05,544 - model_tfidf_tf - INFO - Loss on epoch 46 : 8.984643965959549 - LR: 1e-06
+2019-04-11 16:26:05,676 - model_tfidf_tf - INFO - Loss on epoch 47 : 9.20735576748848 - LR: 1e-06
+2019-04-11 16:26:05,806 - model_tfidf_tf - INFO - Loss on epoch 48 : 9.230311125516891 - LR: 1e-06
+2019-04-11 16:26:05,935 - model_tfidf_tf - INFO - Loss on epoch 49 : 9.20101335644722 - LR: 1e-06
+2019-04-11 16:26:06,075 - model_tfidf_tf - INFO - Loss on epoch 50 : 8.935093492269516 - LR: 1e-06
+2019-04-11 16:26:06,075 - model_tfidf_tf - INFO - 
+-- TEST --
+
+2019-04-11 16:26:06,221 - model_tfidf_tf - INFO - Evaluando FF
+2019-04-11 16:26:06,221 - model_tfidf_tf - INFO - Confusion matrix: 
+2019-04-11 16:26:06,221 - model_tfidf_tf - INFO - [[138  30  15  36]
+ [ 24  13   9  23]
+ [ 26  16   8  12]
+ [ 34  28  13  81]]
+2019-04-11 16:26:06,221 - model_tfidf_tf - INFO - ACC: 0.4743083003952569
+2019-04-11 16:26:06,221 - model_tfidf_tf - INFO - f1_micro: 0.4743083003952569
+2019-04-11 16:26:06,221 - model_tfidf_tf - INFO - f1_macro: 0.3670059357642803
+2019-04-11 16:26:06,221 - model_tfidf_tf - INFO - -------------
+2019-04-11 16:26:06,221 - model_tfidf_tf - INFO - ----------
+2019-04-11 16:26:06,221 - model_tfidf_tf - INFO - Acc Val Test 0.05928853754940711

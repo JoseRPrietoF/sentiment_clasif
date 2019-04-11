@@ -10,9 +10,9 @@ def get_data():
     training_path = path + 'TASS2017_T1_training.xml'
     dev_path = path + 'TASS2017_T1_development.xml'
     test_path = path + 'TASS2017_T1_test.xml'
-    X_train_, y_train = get_tweets(training_path)
-    X_dev, y_dev = get_tweets(dev_path)
-    X_test = get_tweets(test_path, test=True)
+    X_train_, y_train, ids_train = get_tweets(training_path)
+    X_dev, y_dev, ids_dev = get_tweets(dev_path)
+    X_test, ids_test = get_tweets(test_path, test=True)
 
     print("Datos train: {} \nDatos Dev: {} \nDatos test: {} \n".format(
         len(X_train_), len(X_dev), len(X_test)
@@ -38,4 +38,4 @@ def get_data():
 
 
     """Fin Tokenizer"""
-    return X_train, y_train, X_dev, y_dev, X_test
+    return X_train, y_train, ids_train, X_dev, y_dev, ids_dev, X_test, ids_test

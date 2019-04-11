@@ -1,7 +1,7 @@
 from xml.dom import minidom
 
 def get_tweets(path, test = False):
-    X, y = [], []
+    X, y, ids = [], [], []
     xmldoc = minidom.parse(path)
     tweets = xmldoc.getElementsByTagName('tweet')
     # outfile = open(path+'training.txt', 'w')
@@ -21,10 +21,11 @@ def get_tweets(path, test = False):
         # print(id_t, pol_t, text_t)
         # print(text_t)
         X.append(text_t)
+        ids.append(id_t)
         if not test:
             y.append(pol_t)
     if not test:
-        return X, y
+        return X, y, ids
     else:
-        return X
+        return X, ids
 
