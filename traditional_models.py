@@ -22,27 +22,39 @@ from sklearn.model_selection import cross_validate
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, f1_score, accuracy_score
 
-
+from sklearn.model_selection import GridSearchCV
 import numpy as np
 
 
 def train_model(X_train, y_train, classifier="SVC"):
     clf = None
     if classifier == "SVC":
-        clf = SVC()
+        tuned_parameters = [{'kernel': ['rbf', 'linear'], 'gamma': [1e-3, 1e-4],
+                             'C': [1, 10, 100, 1000]},]
+        clf = GridSearchCV(SVC(), tuned_parameters, cv=5, scoring='f1_macro')
     elif classifier == "KNN":
-        clf = KNeighborsClassifier()
+        tuned_parameters = [{'weights': ['uniform', 'distance'], 'n_neighbors': [3,4,5,6],
+                             'algorithm': ['auto', 'ball_tree', 'kd_tree']}, ]
+        clf = GridSearchCV(KNeighborsClassifier(), tuned_parameters, cv=5, scoring='f1_macro')
     elif classifier == "GaussianNB":
-        clf = GaussianNB()
+        tuned_parameters = [{'var_smoothing': [1e-9, 1e-8]}, ]
+        clf = GridSearchCV(GaussianNB(), tuned_parameters, cv=5, scoring='f1_macro')
     elif classifier == "MultinomialNB":
-        clf = MultinomialNB()
+        tuned_parameters = [{'alpha': [0,1.0,0.5,1.5], 'fit_prior':[True,False]}, ]
+        clf = GridSearchCV(MultinomialNB(), tuned_parameters, cv=5, scoring='f1_macro')
     elif classifier == "LogisticRegression":
-        clf = LogisticRegression()
+        tuned_parameters = [{'penalty': ['l1', 'l2'], 'C': [1.0,0.5,2.0,10.0]}, ]
+        clf = GridSearchCV(LogisticRegression(), tuned_parameters, cv=5, scoring='f1_macro')
     elif classifier == "DecisionTreeClassifier":
         clf = DecisionTreeClassifier()
     elif classifier == "RandomForestClassifier":
         clf = RandomForestClassifier()
     clf.fit(X_train, y_train)
+    # means = clf.cv_results_['mean_test_score']
+    # stds = clf.cv_results_['std_test_score']
+    # for mean, std, params in zip(means, stds, clf.cv_results_['params']):
+    #     print("%0.3f (+/-%0.03f) for %r"
+    #           % (mean, std * 2, params))
 
     return clf
 

@@ -1,6 +1,7 @@
 from sklearn.feature_extraction.text import *
 from nltk.tokenize import TweetTokenizer
 from parser import get_tweets
+import numpy as np
 
 def get_data():
     X_train_, y_train = [], []
@@ -31,6 +32,8 @@ def get_data():
     # tam_vocab = len(vocab)
     # del foo
     # print("Tamaño del vocabulario: {}".format(tam_vocab))
+    #
+    #
     X_train = X_train_
 
 
