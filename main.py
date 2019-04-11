@@ -20,6 +20,5 @@ if __name__ == "__main__":
     X_train, y_train, X_dev, y_dev, X_test = get_data()
     X_train, X_dev, X_test = make_tfidf(X_train, X_dev, X_test, min_ngram,up,max_features=max_features, min_df=min_df)
     clasificadores = ["SVC", "KNN", "GaussianNB", "MultinomialNB", "LogisticRegression", "DecisionTreeClassifier",  "RandomForestClassifier"]
-    # clasificadores = ["SVC"]
     for clas in clasificadores:
         traditional_models.train_eval(X_train, y_train, X_dev, y_dev, classifier=clas)
