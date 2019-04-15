@@ -3,7 +3,7 @@ from nltk.tokenize import TweetTokenizer
 from parser import get_tweets
 import numpy as np
 
-def get_data():
+def get_data(token=False):
     X_train_, y_train = [], []
     """Parser"""
     path = "data/"
@@ -23,19 +23,21 @@ def get_data():
     """Fin Parser"""
 
     """Tokenizer"""
-    # tknzr = TweetTokenizer(strip_handles=True, reduce_len=True)
+    if token:
+        # tknzr = TweetTokenizer(strip_handles=True, reduce_len=True)
 
-    # tknzr = TweetTokenizer()
-    # X_train = [tknzr.tokenize(x) for x in X_train_]
-    # foo = sum(X_train, [])
-    # vocab = np.unique(foo)
-    # tam_vocab = len(vocab)
-    # del foo
-    # print("Tamaño del vocabulario: {}".format(tam_vocab))
-    #
-    #
-    X_train = X_train_
+        tknzr = TweetTokenizer()
+        X_train = [tknzr.tokenize(x) for x in X_train_]
+        foo = sum(X_train, [])
+        vocab = np.unique(foo)
+        tam_vocab = len(vocab)
+        del foo
+        print("Tamaño del vocabulario: {}".format(tam_vocab))
+
+    else:
+        X_train = X_train_
+        return X_train, y_train, ids_train, X_dev, y_dev, ids_dev, X_test, ids_test
 
 
     """Fin Tokenizer"""
-    return X_train, y_train, ids_train, X_dev, y_dev, ids_dev, X_test, ids_test
+    return X_train, y_train, ids_train, X_dev, y_dev, ids_dev, X_test, ids_test, vocab

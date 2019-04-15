@@ -67,7 +67,7 @@ def evaluate(clf, name, X_test, y_test):
     f1_macro = f1_score(y_test, pred, average='macro')
     print("Evaluando {}".format(name))
     print("Confusion matrix: ")
-    print(cm)
+    print("\n"+cm)
     print("ACC: {}".format(acc))
     print("f1_micro: {}".format(f1_micro))
     print("f1_macro: {}".format(f1_macro))

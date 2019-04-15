@@ -31,7 +31,6 @@
 # Lines starting with the '#' character are comments. The lexicon includes various word lists obtained from different sources. At the beginning of each section a comment explains the following elements.
 #
 ######################################################
-
 # General terms. The english OpinionFinder lexicon was used as starting point.
 a_ciegas	negative
 a_flote	positive
